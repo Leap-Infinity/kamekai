@@ -1,0 +1,40 @@
+# Python
+*.pyc
+__pycache__/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Flask
+instance/
+.pytest_cache/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Next.js
+/.next/
+/.nuxt/
+/.out/
+/out/
+/.build/
+/.cache/
+/public/
+
+# Serverless
+/.serverless/
+
+# Build files
+/build/
+/dist/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.override
+.env.production
+.env.test
